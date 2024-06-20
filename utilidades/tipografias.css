@@ -1,0 +1,83 @@
+.font-1-xxl {
+  font: 600 4rem/1.125 "Jura", sans-serif;
+}
+
+.font-1-xl {
+  font: 500 2rem/1.25 "Jura", sans-serif;
+}
+
+.font-1-l {
+  font: 400 1.5rem/1.5 "Jura", sans-serif;
+}
+
+.font-1-m {
+  font: 400 1.125rem/1.35 "Jura", sans-serif;
+}
+
+.font-1-m-b {
+  font: 600 1.125rem/1.35 "Jura", sans-serif;
+}
+
+.font-1-s {
+  font: 400 1rem/1.35 "Jura", sans-serif;
+}
+
+.font-1-xs {
+  font: 400 0.75rem/1.20 "Jura", sans-serif;
+}
+
+.font-2-xxl {
+  font: 600 4rem/1.125 "Josefin Slab", sans-serif;
+}
+
+.font-2-xl {
+  font: 500 2rem/1.25 "Josefin Slab", sans-serif;
+}
+
+.font-2-l {
+  font: 400 1.5rem/1.5 "Josefin Slab", sans-serif;
+}
+
+.font-2-m {
+  font: 400 1.125rem/1.35 "Josefin Slab", sans-serif;
+}
+
+.font-2-m-b {
+  font: 600 1.125rem/1.35 "Josefin Slab", sans-serif;
+}
+
+.font-2-s {
+  font: 400 1rem/1.35 "Josefin Slab", sans-serif;
+}
+
+.font-2-xs {
+  font: 400 0.75rem/1.20 "Josefin Slab", sans-serif;
+}
+
+.font-3-xxl {
+  font: 600 4rem/1.125 "Jura", monospace;
+}
+
+.font-3-xl {
+  font: 500 2rem/1.25 "Jura", monospace;
+}
+
+.font-3-l {
+  font: 400 1.5rem/1.5 "Jura", monospace;
+}
+
+.font-3-m {
+  font: 400 1.125rem/1.35 "Jura", monospace;
+}
+
+.font-3-m-b {
+  font: 600 1.125rem/1.35 "Jura", monospace;
+}
+
+.font-3-s {
+  font: 400 1rem/1.35 "Jura", monospace;
+}
+
+.font-3-xs {
+  font: 400 0.75rem/1.20 "Jura", monospace;
+}
