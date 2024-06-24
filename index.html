@@ -9,19 +9,55 @@
   <title>ArtStudio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Jura:wght@300..700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <header>
-  <div class="header-introducao">
-    <div class="header-menu">
-      <a href=""><img src="./img/icons/artStudio.svg" alt="Logo do site"></a>
-        <ul class="menu-nav">
-          <li class="font-4-s cor-p8"><a href="">ORIGINALS</a></li>
-          <li class="font-4-s cor-p8"><a href="">PRINTS</a></li>
-          <li class="font-4-s cor-p8"><a href="">ABOUT</a></li>
-          <li><a href=""><img src="./img/icons/shopping-car.svg" alt=""></a></li>
+  <div class="header-bg">
+    <div class="header-container">
+      <div class="logo">
+        <a href="#"><img src="./img/icons/artStudio.svg" alt="ArtStudio logo do site"></a>
+      </div>
+      <nav class="header-menu">
+        <ul class="nav-links">
+          <li class="nav-link originals">
+            <a href="#">ORIGINALS<span class="material-icons drop-down-icon">keyboard_arrow_down</span></a>
+            <ul class="drop-down-originals">
+              <li><a href="#">THE MALLEABLE COLLECTION</a></li>
+              <li><a href="#">PRIVATE COLLECTION</a></li>
+              <li><a href="#">CURRENT ORIGINAL WORK</a></li>
+              <li><a href="#">WAX CRAYONS</a></li>
+              <li><a href="#">OIILS / ACRYLICS</a></li>
+              <li><a href="#">WATERCOLORS</a></li>
+            </ul>
+          </li>
+          <li class="nav-link prints">
+            <a href="#">PRINTS<span class="material-icons drop-down-icon">keyboard_arrow_down</span></a>
+            <ul class="drop-down-prints">
+              <li><a href="#">THE MALLEABLE COLLECTION</a></li>
+              <li><a href="#">PRIVATE COLLECTION</a></li>
+              <li><a href="#">CURRENT ORIGINAL WORK</a></li>
+              <li><a href="#">WAX CRAYONS</a></li>
+              <li><a href="#">OIILS / ACRYLICS</a></li>
+              <li><a href="#">WATERCOLORS</a></li>
+            </ul>
+          </li>
+          <li class="">
+            <a href="#">ABOUT</a>
+          </li>
+          <li class="shopping-car">
+            <a href=""><img src="./img/icons/shopping-car.svg" alt=""></a>
+          </li>
         </ul>
-      <div class="dark-mode-btn"><img src="./img/icons/dark-mode.svg" alt=""></div>
+      </nav>
+      <div class="dark-mode-btn">
+        <input type="checkbox" class="checkbox" id="chk">
+        <label class="label" for="chk">
+          <img class="moon" src="./img/icons/moon.svg" alt="" width="18px" height="18px">
+          <img class="sun" src="./img/icons/sun.svg" alt="" width="18px" height="18px">
+          <div class="ball"></div>
+        </label>
+      </div>
     </div>
   </div>
 </header>
