@@ -1,60 +1,76 @@
-.header-bg {
-  background: url(../img/borinehart-studio-june-2018-1_1944x.webp) no-repeat;
+/* .header-bg {
+  background: url(../img/borinehart-studio-june-2018-1_1944x.png) no-repeat;
   width: 1920px;
   height: 700px;
   object-fit: cover;
   object-position: left;
+} */
+
+/* .header-bg {
+  width: 1920px;
+  height: 700px;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+} */
+
+.introducao-img {
+  position: relative;
+  width: 1920px;
+  height: 700px;
 }
 
 .header-container {
-  padding: 40px 200px;
   display: grid;
-  grid-template-columns: 0.5fr 1fr 0.2fr;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  margin: 80px 200px;
+  top: 0px;
+  position: absolute;
+}
+
+.menu-hamburguer {
+  display: none;
 }
 
 .nav-links {
   display: flex;
-  justify-content: right;
+  width: 800px;
   align-items: center;
-  gap: 20px;
-  font: 400 1rem/1.125em 'Poppins', sans-serif;
+  justify-content: right;
+  gap: 5px;
+  font: 400 0.875rem/0.975em 'Poppins', sans-serif;
   letter-spacing: 4px;
   color: var(--cor-p8);
+  position: relative;
+  z-index: 9;
 }
 
-.nav-link:hover {
+.nav-links .originals a:hover, .nav-links .prints a:hover {
   background-color: var(--cor-p8);
   color: var(--cor-p0);
-  transition: 0.1s;
-}
-
-.originals a, .prints a {
-  display: flex;
-  align-items: center;
-  padding: 4px;
 }
 
 .drop-down-originals, .drop-down-prints {
   display: none;
-  position: absolute;
 }
 
 .originals:hover .drop-down-originals, .prints:hover .drop-down-prints {
-  display: grid;
-  gap: 10px;
-  padding: 10px;
-  font-size: 0.875rem;
+  display: block;
   background-color: var(--cor-p8);
-  transition: 0.1s;
+  color: var(--cor-p0);
+  position: absolute;
 }
 
-.drop-down-icon {
-  font-size: 20px;
-  position: relative;
+.nav-link a {
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
 
 .logo {
-  padding-top: 10px;
+  display: inline-block;
+  padding: 5px;
 }
 
 .dark-mode-btn {
@@ -102,4 +118,57 @@ label .ball {
 
 .checkbox:checked + label .ball {
   transform: translateX(24px);
+}
+
+@media (max-width: 1260px) {
+  .header-container {
+    margin: 80px 100px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .header-container {
+    margin: 80px 40px;
+  }
+}
+
+@media (max-width: 940px) {
+  .nav-links {
+    gap: 20px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 940px) {
+  .nav-links {
+    gap: 20px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 750px) {
+  .nav-link:nth-child(1), .nav-link:nth-child(2), .nav-link:nth-child(3), .nav-link:nth-child(4) {
+    display: none;
+  }
+  .nav-links {
+    width: 400px;
+  }
+  .menu-hamburguer {
+    display: block;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-links {
+    width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  .nav-links {
+    gap: 0px;
+  }
+  .logo {
+    position: absolute;
+  }
 }
