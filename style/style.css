@@ -9,3 +9,11 @@
 /* Header */
 
 @import '../header/header.css';
+
+/* Prints */
+
+@import '../prints/prints.css';
+
+/* Footer */
+
+@import '../footer/footer.css';

@@ -1,0 +1,23 @@
+.prints-container h3 {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.prints-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 500px) {
+  .print-price,
+  .print-desc {
+    font: 400 0.75rem/1.20 "Jura", sans-serif;
+  }
+}
